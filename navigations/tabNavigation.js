@@ -8,13 +8,13 @@ import ProfilePage from './screens/ProfilePage'
 import SearchPage from './screens/SearchPage'
 import { Ionicons, Entypo } from '@expo/vector-icons';
 import React from "react";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { useFonts } from "expo-font";
+
 
 
 const Tab = createBottomTabNavigator()
-const Stack = createNativeStackNavigator()
 
-export default function App() {
+export default function tabNavigation() {
   return (
     <NavigationContainer>
       <Tab.Navigator screenOptions={{
