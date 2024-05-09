@@ -6,7 +6,7 @@ export default function AboutUsPage() {
   return (
     <SafeAreaView style={{flex:1}}> 
         <View style={{flexDirection: 'row', top:-25, justifyContent: 'center' , alignItems: 'center'}}>
-            <Image source={require('./assets/images/appImage.png')} style={styles.appImage}/>
+            <Image source={require('../assets/images/appImage.png')} style={styles.appImage}/>
             <View style={styles.appDesc}>
               <Text style={styles.DescText}>
               ReminderU is a reminder app intended to make task scheduling easier for students.
@@ -19,12 +19,12 @@ export default function AboutUsPage() {
               <Text style={styles.DescText}>
               The developers, as students themselves were inspired to create this app to manage their limited time for academic stuff, organization duties, and time for themselves.              </Text>
             </View>
-          <Image source={require('./assets/images/developer.png')} style={styles.appImage}/>            
+          <Image source={require('../assets/images/developer.png')} style={styles.appImage}/>            
         </View>
 
 
         <View style={{flexDirection: 'row', marginTop: 20, justifyContent: 'center', alignItems: 'center'}}>
-            <Image source={require('./assets/images/belle.png')} style={styles.belleImage}/>
+            <Image source={require('../assets/images/belle.png')} style={styles.belleImage}/>
             <View style={styles.belleDesc}>
               <Text style={styles.DescText}>
               Belle is a Chatbot that is created to help the user create reminders for them and also reminder on time.              </Text>
@@ -36,7 +36,7 @@ export default function AboutUsPage() {
               <Text style={styles.DescText}>
               This app is developed using Android Studio as the Integrated Development Environment, React as a framework, and React Native for UI design.    </Text>        
              </View>
-          <Image source={require('./assets/images/vscode.png')} style={styles.appImage}/>            
+          <Image source={require('../assets/images/vscode.png')} style={styles.appImage}/>            
         </View>
 
     </SafeAreaView>
